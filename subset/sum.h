@@ -5,7 +5,6 @@
 
 typedef std::vector<int> Set; 
 typedef std::pair<Set, Set> SubsetPair;
-typedef int Target;
 
 // Overload the operator<< to change the arguments 
 std::ostream& operator<<(std::ostream& os, const SubsetPair& pair) {
@@ -33,9 +32,7 @@ class subSetSum {
                         sum += s1[i];
                     }
                 }
-                //else {continue;}
             }
-            std::cout << "Sum:" << sum << std::endl;
             return sum;
         }
 
