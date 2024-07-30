@@ -35,8 +35,5 @@ class subSetSum {
             }
             return sum;
         }
-
-
-
 };
 #endif 
